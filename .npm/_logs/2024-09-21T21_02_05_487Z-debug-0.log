@@ -1,0 +1,24 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.17.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/user/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm list
+7 verbose argv "list" "--global" "--depth" "0"
+8 verbose logfile logs-max:10 dir:/home/user/.npm/_logs/2024-09-21T21_02_05_487Z-
+9 verbose logfile /home/user/.npm/_logs/2024-09-21T21_02_05_487Z-debug-0.log
+10 silly packumentCache heap:2114453504 maxSize:528613376 maxEntrySize:264306688
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/npm 249ms
+13 verbose cwd /home/user
+14 verbose os Linux 5.10.186+
+15 verbose node v20.17.0
+16 verbose npm  v10.8.2
+17 notice
+17 notice New [36mpatch[39m version of npm available! [36m10.8.2[39m -> [34m10.8.3[39m
+17 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v10.8.3[39m
+17 notice To update run: [4mnpm install -g npm@10.8.3[24m
+17 notice  { force: true, [Symbol(proc-log.meta)]: true }
+18 verbose exit 0
+19 info ok
