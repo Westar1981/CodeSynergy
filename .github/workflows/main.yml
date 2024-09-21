@@ -24,10 +24,8 @@ jobs:
 
     - name: Install backend dependencies
       run: npm install
-      run: npm install
 
     - name: Run backend tests
-      run: npm test
       run: npm test
 
     - name: Set up frontend
@@ -40,6 +38,7 @@ jobs:
         cd frontend-react
         npm test
 
+    - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.8'
